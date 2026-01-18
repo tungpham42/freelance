@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #fdfbf7; /* Warm off-white */
+}
+
+.layout-background {
+  /* Warm, cozy gradient (Cream to Soft Peach) */
+  background: linear-gradient(135deg, #fffbf2 0%, #fff0e6 100%); 
+  min-height: 100vh;
+}
+
+/* Typography Overrides for Ant Design */
+.ant-typography, .ant-btn, .ant-input, .ant-select {
+  font-family: 'Work Sans', sans-serif !important;
+}
+
+/* Custom Card Styling for "Cozy" feel */
+.cozy-card {
+  background: #ffffff;
+  border-radius: 16px !important;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  /* Change shadow from Blue tint to Warm Brown tint */
+  box-shadow: 0 10px 40px -10px rgba(140, 60, 0, 0.06) !important; 
+  overflow: hidden;
+}
+
+/* Make the header feel like a glass bar */
+.glass-header {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+/* Markdown Content Styling */
+.markdown-content {
+  color: #2c3e50;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.markdown-content h1, 
+.markdown-content h2, 
+.markdown-content h3 {
+  color: #1f1f1f;
+  font-weight: 600;
+  margin-top: 1.5em;
+}
+
+.markdown-content ul {
+  padding-left: 24px;
+}
+
+.markdown-content li {
+  margin-bottom: 8px;
+}
+
+.markdown-content strong {
+  color: #e05a47; /* Warm Terracotta instead of Violet */
+}
+
+/* Custom Tag Look */
+.mode-tag {
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-weight: 500;
+  border: none;
+}
